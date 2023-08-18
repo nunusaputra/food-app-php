@@ -1,0 +1,20 @@
+[
+    {
+        "nama": "Tulus Abadi",
+        "tanggal": "Friday, 18-08-23",
+        "food1": "1200",
+        "food2": "700",
+        "food3": "642",
+        "sumCalories": 2542,
+        "status": "<a href='#' class='btn btn-danger badge rounded-pill'>Over Calories<\/a>"
+    },
+    {
+        "nama": "Wisnu Saputra",
+        "tanggal": "Friday, 18-08-23",
+        "food1": "348",
+        "food2": "527",
+        "food3": "700",
+        "sumCalories": 1575,
+        "status": "<a href='#' class='btn btn-success badge rounded-pill'>Normal Calories<\/a>"
+    }
+]

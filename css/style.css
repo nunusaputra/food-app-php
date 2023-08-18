@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #111111 ;
+}
+body {
+    background-color: var(--primary-color);  
+    background: #fff;
+    color: #A8DF8E;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 13px 10%;
+    transition: 0.2s;
+    box-shadow: -3px -3px 7px #ffffff73,
+                  2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+header.shadow {
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+.logo {
+    font-size: 1.61rem;
+    font-weight: 600;
+    color: #A8DF8E;
+    animation: slideRight 1s ease forwards;
+}
+
+.logo:hover {
+    color: #7AA874;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 18px;
+    color: #A8DF8E;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #7AA874;
+    font-weight: 700;
+}
+
+main {
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: #7AA874;
+    position: relative;
+    overflow: hidden;
+
+}
+.food img {
+    width: 100%;
+}
+
+.food-info {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.food-info h3 {
+    margin-top: 0;
+}
+
+.food-info span {
+    margin-top: -20px;
+    background-color: var(--primary-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.date {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+    margin-top: -50px;
+}
+
+.food-info span.green {
+    color: lightgreen;
+}
+
+.food-info span.orange {
+    color: orange;
+}
+
+.food-info span.red {
+    color: red;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+    color: #000;
+}
+
+.overview-1 {
+    color: #000;
+}
+
+.food:hover .overview {
+    transform: translateY(0);
+}
+
+.footer {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+}
+  .footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.footer-01 {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: #ebebeb;
+    color: #000;
+}
+
+.copyright {
+    padding: 20px;
+    background: #A8DF8E;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+    font-weight: 800;
+}
+
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #7AA874;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+h2 {
+    color: #7AA874;
+    font-weight: 600;
+}
+
+.comment {
+    color: #7AA874;
+    font-weight: 500;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1300px) {
+    main {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .search {
+        width: 100%;
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .logo {
+        font-size: 10px;
+    }
+
+    .search {
+        width: 100%;
+        padding: 5px 5px;
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+}
+
+

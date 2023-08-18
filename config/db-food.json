@@ -1,0 +1,65 @@
+[
+    {
+        "nama": "Ayam Geprek",
+        "foodType": "Makanan Berat",
+        "calories": "348",
+        "desc": "Ayam Geprek adalah hidangan kuliner Indonesia yang berasal dari masakan tradisional Jawa. Hidangan ini terdiri dari potongan ayam goreng yang digeprek atau dihancurkan dengan menggunakan alat khusus atau tangan, kemudian disajikan dengan berbagai tingkat kepedasan sesuai selera.",
+        "gambar": "64dec1ac1ae77.jpg"
+    },
+    {
+        "nama": "Black Forest",
+        "foodType": "Makanan Penutup",
+        "calories": "598",
+        "desc": "Black Forest adalah sejenis kue yang berasal dari Jerman. Kue ini terdiri dari lapisan sponge cake cokelat yang lembut, diisi dengan krim kocok dan ceri. Lapisan luar kue sering kali dihiasi dengan potongan ceri, serutan cokelat, dan krim, menciptakan tampilan yang menggoda dan cita rasa yang manis dan menyegarkan.",
+        "gambar": "64dec0b9afe65.jpg"
+    },
+    {
+        "nama": "Kerak Telor",
+        "foodType": "Makanan Penutup",
+        "calories": "559",
+        "desc": "Kerak Telor adalah hidangan tradisional Indonesia, khususnya dari Betawi. Ini adalah sejenis makanan ringan yang terbuat dari beras ketan yang digoreng dengan telur dan bumbu-bumbu seperti bawang merah, ebi (udang kecil kering), dan kelapa parut. ",
+        "gambar": "64dec2507d710.jpg"
+    },
+    {
+        "nama": "Martabak",
+        "foodType": "Makanan Penutup",
+        "calories": "431",
+        "desc": "Martabak adalah hidangan lezat yang berasal dari berbagai negara di Asia. Di Indonesia, martabak dikenal sebagai makanan yang populer dan sering dijajakan di pinggir jalan atau di toko-toko khusus. Martabak umumnya terbuat dari adonan tepung yang diisi dengan berbagai bahan, baik yang manis maupun gurih.",
+        "gambar": "64debfd3a8986.jpg"
+    },
+    {
+        "nama": "Nasi Goreng",
+        "foodType": "Makanan Berat",
+        "calories": "527",
+        "desc": "Nasi Goreng adalah hidangan nasi yang digoreng dengan bumbu-bumbu seperti bawang, bawang putih, cabai, dan kecap manis. Hidangan ini seringkali juga mengandung potongan daging ayam, udang, atau sosis, serta bisa ditambahkan dengan telur goreng. Nasi Goreng sering dianggap sebagai salah satu hidangan nasional Indonesia dan bisa ditemukan di banyak warung makan serta restoran.",
+        "gambar": "64dec34a1d464.jpg"
+    },
+    {
+        "nama": "Nasi Uduk",
+        "foodType": "Makanan Berat",
+        "calories": "1200",
+        "desc": "Nasi Uduk adalah sebuah hidangan nasi yang berasal dari Indonesia. Hidangan ini umumnya terbuat dari nasi yang dimasak dengan menggunakan santan (kelapa parut yang diperas) bersama dengan berbagai rempah-rempah seperti daun salam, serai, lengkuas, dan bumbu lainnya.",
+        "gambar": "64dedbfb6c66d.jpg"
+    },
+    {
+        "nama": "Pizza",
+        "foodType": "Makanan Penutup",
+        "calories": "700",
+        "desc": "Pizza adalah hidangan populer yang berasal dari Italia dan telah menjadi favorit di seluruh dunia. Ini terdiri dari adonan yang pipih dan lezat, biasanya dipanggang dalam oven, yang kemudian dilapisi dengan saus tomat dan dihiasi dengan berbagai macam bahan tambahan.",
+        "gambar": "64dec14fc9559.jpg"
+    },
+    {
+        "nama": "Sate Ayam",
+        "foodType": "Makanan Berat",
+        "calories": "681",
+        "desc": "Sate Ayam adalah hidangan yang umum dijumpai di berbagai negara Asia Tenggara, termasuk Indonesia. Ini terdiri dari potongan-potongan daging ayam yang ditusuk pada tusukan bambu atau lidi, kemudian dipanggang atau dibakar.",
+        "gambar": "64dec0e2bcf4a.jpg"
+    },
+    {
+        "nama": "Spaghetti",
+        "foodType": "Makanan Berat",
+        "calories": "642",
+        "desc": "Spaghetti adalah jenis pasta yang panjang dan tipis, berbentuk seperti tali. Pasta ini berasal dari Italia dan telah menjadi populer di seluruh dunia sebagai dasar bagi berbagai hidangan pasta.",
+        "gambar": "64debf70a5031.jpg"
+    }
+]

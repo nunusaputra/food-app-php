@@ -1,0 +1,10 @@
+[
+    {
+        "nama": "Setiawan Sutrisna",
+        "tanggal": "Friday, 18-08-23",
+        "tinggiBadan": "170",
+        "beratBadan": "70",
+        "totalBMI": "24.22",
+        "status": "<a href='#' class='btn btn-success badge rounded-pill'>Normal Weight<\/a>"
+    }
+]
